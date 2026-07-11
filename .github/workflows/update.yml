@@ -1,0 +1,40 @@
+name: SearX Instances update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  check-searx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run SearX checker
+        run: python fetch.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add searx.txt
+          # 只在有变更时提交
+          if ! git diff --staged --quiet; then
+            git commit -m "auto update"
+            git push
+          else
+            echo "No changes to commit."
+          fi
