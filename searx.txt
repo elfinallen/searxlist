@@ -1,5 +1,4 @@
 https://baresearch.org/
-https://failsearx.culturanerd.it/
 https://find.xenorio.xyz/
 https://grep.vim.wtf/
 https://priv.au/
@@ -27,6 +26,7 @@ https://searx.rajimayur.me/
 https://searx.rhscz.eu/
 https://searx.ro/
 https://searx.thefloatinglab.world/
+https://searx.tiekoetter.com/
 https://searx.tsmdt.de/
 https://searxng.canine.tools/
 https://searxng.cups.moe/
@@ -38,19 +38,18 @@ https://searxng.website/
 https://searxng.wuemeli.com/
 https://www.gruble.de/
 https://opnxng.com/
-https://paulgo.io/
-https://sear.lurx.net/
 https://search.anoni.net/
 https://search.catboy.house/
 https://search.liuzj.net/
-https://search.pereira.is/
 https://search.pi.vps.pw/
 https://search.unredacted.org/
 https://searx.dresden.network/
 https://searx.redgarden.cv/
-https://searx.tiekoetter.com/
 https://searxng.deggo.fyi/
 https://searxng.fishfvch.com/
+https://paulgo.io/
+https://sear.lurx.net/
+https://search.pereira.is/
 https://searxng.gr/
 https://xka.cz/
 https://searx.ankha.ac/
@@ -68,6 +67,7 @@ https://search.undertale.uk/
 https://ooglester.com/
 https://etsi.me/
 https://copp.gg/
+https://failsearx.culturanerd.it/
 https://search.internetsucks.net/
 https://search.mectov.my.id/
 https://search.sapti.me/
